@@ -122,6 +122,13 @@ nav > a {
 
 .skils-block {
   margin: 0px 88px;
+  text-align: center;
+}
+
+.skils-block > ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
 }
 
 .skils-block > img {
