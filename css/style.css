@@ -6,7 +6,8 @@ body {
 nav,
 footer,
 header,
-aside {
+aside,
+main {
   display: block;
 }
 
@@ -24,7 +25,11 @@ h6 {
 body {
   font-family: "Open Sans";
   font-style: normal;
-  background-color: #f6f6f6;
+  background: #f6f6f6;
+}
+
+.container {
+  background-color: #ffffff;
 }
 
 header {
@@ -72,6 +77,17 @@ nav > a {
   background: url(../assets/images/photo-header.jpg) 0 0 / cover no-repeat;
 }
 
+main {
+  text-align: center;
+}
+
+.wrapper {
+  padding: 100px 0px 0px 0px;
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+}
+
 #about-me {
   margin-left: auto;
   margin-right: auto;
@@ -104,35 +120,50 @@ nav > a {
 }
 
 #skills {
-  height: 396px;
-  max-width: 936px;
+  height: 564px;
+  max-width: 970px;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  background-color: #ffffff;
+
   /* margin: 100px 0px 0px 0px; */
 }
 .skills-title {
   text-align: center;
-  margin: 10px 0px 78px 0px;
+  margin: 10px 0px 0px 0px;
 }
-.wrapper {
+.wrapp {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .skils-block {
-  margin: 0px 88px;
-  text-align: center;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  /* margin: 0px 88px;
+  text-align: center; */
 }
 
 .skils-block > ul {
   display: flex;
   list-style: none;
-  padding: 0;
+  padding: 60px 0px 0px 0px;
+}
+
+.skils-block > p {
+  width: 6em;
+  height: 2em;
+  margin: auto;
+
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .skils-block > img {
-  margin: 0px 0px 27px 0px;
+  margin: 50px 0px 25px 0px;
   width: 81px;
   height: 80px;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#593956+0,000000+100
@@ -165,31 +196,40 @@ nav > a {
   max-width: 936px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 128px;
+  margin-top: 50px;
 }
-#portfolio > p {
-  text-align: center;
+
+#portfolio > article > a {
+  margin: 40px 0px 70px 0px;
+}
+
+#portfolio > article > p {
+  margin-bottom: 100px;
 }
 
 footer {
-  height: 671px;
+  padding: 100px 0px;
+  width: 100%;
+  height: 100%;
   background: #ffffff;
 }
 #contacts {
-  max-width: 936px;
+  max-width: 970px;
+  max-height: 400px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 200px;
+
   text-align: center;
 }
-#contacts > div > p {
+#contacts > p {
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
+  margin-top: 20px;
 }
 
 #contacts > button {
-  margin-top: 78px;
+  margin-top: 60px;
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
@@ -202,7 +242,7 @@ footer {
   color: #ffffff;
 }
 .social {
-  margin-top: 37px;
+  margin-top: 40px;
 }
 .social > a {
   margin-top: 37px;
@@ -211,7 +251,7 @@ footer {
 
 .social > p {
   width: 243px;
-  height: 63px;
+  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
   font-weight: 400;
