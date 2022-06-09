@@ -22,6 +22,7 @@ h6 {
 }
 
 /* ----------------------- */
+
 body {
   font-family: "Open Sans";
   font-style: normal;
@@ -31,6 +32,8 @@ body {
 .container {
   background-color: #ffffff;
 }
+
+/* header */
 
 header {
   max-width: 943px;
@@ -77,6 +80,8 @@ nav > a {
   background: url(../assets/images/photo-header.jpg) 0 0 / cover no-repeat;
 }
 
+/* ------------------------------- */
+
 main {
   text-align: center;
 }
@@ -87,6 +92,8 @@ main {
   height: auto;
   background-color: #ffffff;
 }
+
+/* SECTION ABOUT ME */
 
 #about-me {
   margin-left: auto;
@@ -119,6 +126,10 @@ main {
   line-height: 25px;
 }
 
+/* ------------------------------- */
+
+/* SECTION SKILLS */
+
 #skills {
   height: 564px;
   max-width: 970px;
@@ -126,8 +137,6 @@ main {
   margin-right: auto;
   display: block;
   background-color: #ffffff;
-
-  /* margin: 100px 0px 0px 0px; */
 }
 .skills-title {
   text-align: center;
@@ -143,8 +152,6 @@ main {
   margin-block-end: 1em;
   margin-inline-start: 40px;
   margin-inline-end: 40px;
-  /* margin: 0px 88px;
-  text-align: center; */
 }
 
 .skils-block > ul {
@@ -192,6 +199,14 @@ main {
   background-color: #ffffff;
 }
 
+/* ------------------------------- */
+
+/* SECTION PORTFOLIO */
+
+#portfolio {
+  padding-top: 100px;
+}
+
 #portfolio > article {
   max-width: 936px;
   margin-left: auto;
@@ -207,12 +222,17 @@ main {
   margin-bottom: 100px;
 }
 
+/* ------------------------------- */
+
 footer {
   padding: 100px 0px;
   width: 100%;
   height: 100%;
   background: #ffffff;
 }
+
+/* SECTION CONTACTS */
+
 #contacts {
   max-width: 970px;
   max-height: 400px;
@@ -259,3 +279,5 @@ footer {
   line-height: 19px;
   color: #828282;
 }
+
+/* ------------------------------- */
