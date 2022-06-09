@@ -141,6 +141,9 @@ main {
 .skills-title {
   text-align: center;
   margin: 10px 0px 0px 0px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
 }
 .wrapp {
   display: flex;
@@ -160,11 +163,10 @@ main {
   padding: 60px 0px 0px 0px;
 }
 
-.skils-block > p {
+.skils-block > figcaption {
   width: 6em;
   height: 2em;
   margin: auto;
-
   font-size: 18px;
   line-height: 25px;
 }
