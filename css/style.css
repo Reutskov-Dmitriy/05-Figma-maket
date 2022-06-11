@@ -1,0 +1,285 @@
+/*Reset*/
+body {
+  margin: 0;
+  padding: 0;
+}
+nav,
+footer,
+header,
+aside,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* ----------------------- */
+
+body {
+  font-family: "Open Sans";
+  font-style: normal;
+  background: #f6f6f6;
+}
+
+.container {
+  background-color: #ffffff;
+}
+
+/* header */
+
+header {
+  max-width: 943px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 64px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+}
+nav {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 943px;
+  padding-top: 23px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-bottom: 1px solid #828282;
+}
+
+nav > a {
+  padding-right: 40px;
+  text-decoration: none;
+}
+.header__title {
+  margin-top: 34px;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 100%;
+}
+
+.header__title > div {
+  width: 943px;
+  height: 387px;
+  background: url(../assets/images/photo-header.jpg) 0 0 / cover no-repeat;
+}
+
+/* ------------------------------- */
+
+main {
+  text-align: center;
+}
+
+.wrapper {
+  padding: 100px 0px 0px 0px;
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+}
+
+/* SECTION ABOUT ME */
+
+#about-me {
+  margin-left: auto;
+  margin-right: auto;
+  height: 517px;
+  margin-top: 100px;
+  padding-top: 100px;
+  background: #f6f6f6;
+  font-family: "Open Sans";
+  font-style: normal;
+  text-align: center;
+}
+.about-title {
+  margin-bottom: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  color: #070707;
+}
+.about-text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 480px;
+  height: 246px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/* ------------------------------- */
+
+/* SECTION SKILLS */
+
+#skills {
+  height: 564px;
+  max-width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #ffffff;
+}
+.skills-title {
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+.wrapp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skils-block {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+.skils-block > ul {
+  display: flex;
+  list-style: none;
+  padding: 60px 0px 0px 0px;
+}
+
+.skils-block > figcaption {
+  width: 6em;
+  height: 2em;
+  margin: auto;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.skils-block > img {
+  margin: 50px 0px 25px 0px;
+  width: 81px;
+  height: 80px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#593956+0,000000+100
+  background: #593956; /* Old browsers */
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    #593956 0%,
+    #000000 100%
+  ); /* FF3.6-15 */
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    #593956 0%,
+    #000000 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(
+    ellipse at center,
+    #593956 0%,
+    #000000 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#593956', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#figma {
+  background: initial;
+}
+
+/* ------------------------------- */
+
+/* SECTION PORTFOLIO */
+
+#portfolio {
+  padding-top: 100px;
+}
+
+#portfolio > article {
+  max-width: 936px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+#portfolio > article > a {
+  margin: 40px 0px 70px 0px;
+}
+
+#portfolio > article > p {
+  margin-bottom: 100px;
+}
+
+/* ------------------------------- */
+
+footer {
+  padding: 100px 0px;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+}
+
+/* SECTION CONTACTS */
+
+#contacts {
+  max-width: 970px;
+  max-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+}
+#contacts > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+#contacts > button {
+  margin-top: 60px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  background: #070707;
+  border-radius: 20px;
+  width: 180px;
+  height: 42px;
+  color: #ffffff;
+}
+.social {
+  margin-top: 40px;
+}
+.social > a {
+  margin-top: 37px;
+  padding: 30px;
+}
+
+.social > p {
+  width: 243px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #828282;
+}
+
+/* ------------------------------- */
