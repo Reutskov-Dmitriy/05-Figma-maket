@@ -65,6 +65,7 @@ nav {
 nav > a {
   padding-right: 40px;
   text-decoration: none;
+  color: #828282;
 }
 .header__title {
   margin-top: 34px;
@@ -155,6 +156,7 @@ main {
   margin-block-end: 1em;
   margin-inline-start: 40px;
   margin-inline-end: 40px;
+  color: #828282;
 }
 
 .skils-block > ul {
@@ -164,11 +166,14 @@ main {
 }
 
 .skils-block > figcaption {
-  width: 6em;
+  width: 7em;
   height: 2em;
   margin: auto;
-  font-size: 18px;
-  line-height: 25px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .skils-block > img {
@@ -198,7 +203,7 @@ main {
 }
 
 #figma {
-  background: initial;
+  background: unset;
 }
 
 /* ------------------------------- */
@@ -218,6 +223,7 @@ main {
 
 #portfolio > article > a {
   margin: 40px 0px 70px 0px;
+  color: #070707;
 }
 
 #portfolio > article > p {
@@ -262,6 +268,7 @@ footer {
   width: 180px;
   height: 42px;
   color: #ffffff;
+  cursor: pointer;
 }
 .social {
   margin-top: 40px;
