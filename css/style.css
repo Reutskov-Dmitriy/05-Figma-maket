@@ -1,36 +1,24 @@
-/*Reset*/
-body {
-  margin: 0;
-  padding: 0;
-}
-nav,
-footer,
-header,
-aside,
-main {
-  display: block;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: inherit;
-}
-
-/* ----------------------- */
 
 body {
-  font-family: "Open Sans";
+ 
   font-style: normal;
   background: #f6f6f6;
 }
 
 .container {
   background-color: #ffffff;
+}
+/* Font  Gilroy Regular */
+.f-f-r{
+font-family: var(--font-family-r);
+  font-size: 18px;
+  line-height: 25px;
+}
+/* Font Gilroy Bolt */
+.f-f-b{
+	font-family: var(--font-family-b);
+  font-size: 14px;
+  line-height: 19px;
 }
 
 /* header */
@@ -41,15 +29,16 @@ header {
   margin-right: auto;
 }
 h1 {
-  font-weight: 700;
+  font-family: var(--font-family-b);
   font-size: 47px;
   line-height: 64px;
 }
 h2 {
-  font-weight: 700;
+  font-family: var(--font-family-b);
   font-size: 34px;
   line-height: 46px;
   text-align: center;
+  color: #070707;
 }
 nav {
   text-align: center;
@@ -57,9 +46,11 @@ nav {
   margin-right: auto;
   width: 943px;
   padding-top: 23px;
-
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-bottom: 1px solid #828282;
+  font-family: var(--font-family-r);
+  font-size: 18px;
+  line-height: 25px;
 }
 
 nav > a {
@@ -67,11 +58,23 @@ nav > a {
   text-decoration: none;
   color: #828282;
 }
+
+nav>a:hover,
+nav>a:focus{
+	color: #070707;
+	outline: none;
+		transition: all .3s ease-in;
+	
+}
+
+nav > a :visited{
+	color: #070707;
+}
+
 .header__title {
   margin-top: 34px;
   margin-left: auto;
   margin-right: auto;
-
   width: 100%;
 }
 
@@ -103,28 +106,20 @@ main {
   margin-top: 100px;
   padding-top: 100px;
   background: #f6f6f6;
-  font-family: "Open Sans";
-  font-style: normal;
-  text-align: center;
-}
+ }
+
 .about-title {
   margin-bottom: 28px;
   margin-left: auto;
   margin-right: auto;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 46px;
-  color: #070707;
+
+ 
 }
 .about-text {
   margin-left: auto;
   margin-right: auto;
   width: 480px;
   height: 246px;
-
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
 }
 
 /* ------------------------------- */
@@ -139,13 +134,11 @@ main {
   display: block;
   background-color: #ffffff;
 }
-.skills-title {
+.skills-title p {
   text-align: center;
   margin: 10px 0px 0px 0px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-}
+ }
+
 .wrapp {
   display: flex;
   justify-content: space-between;
@@ -156,7 +149,7 @@ main {
   margin-block-end: 1em;
   margin-inline-start: 40px;
   margin-inline-end: 40px;
-  color: #828282;
+ 
 }
 
 .skils-block > ul {
@@ -169,10 +162,7 @@ main {
   width: 7em;
   height: 2em;
   margin: auto;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 19px;
-  text-align: center;
+  color: #828282;
   letter-spacing: 0.02em;
 }
 
@@ -219,11 +209,13 @@ main {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+
 }
 
-#portfolio > article > a {
+#portfolio > article  a {
   margin: 40px 0px 70px 0px;
   color: #070707;
+  display: inline-block;
 }
 
 #portfolio > article > p {
@@ -250,15 +242,12 @@ footer {
   text-align: center;
 }
 #contacts > p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  margin-top: 20px;
+	  margin-top: 20px;
 }
 
 #contacts > button {
   margin-top: 60px;
-  font-weight: 700;
+  font-family: var(--font-family-b);
   font-size: 18px;
   line-height: 25px;
   text-align: center;
@@ -283,7 +272,7 @@ footer {
   margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
-  font-weight: 400;
+  font-family: var(--font-family-r);
   font-size: 14px;
   line-height: 19px;
   color: #828282;
