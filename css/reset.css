@@ -1,0 +1,17 @@
+/*Reset*/
+body {
+	margin: 0;
+	padding: 0;
+ }
+ nav,
+ footer,
+ header,
+ aside,
+ main {
+	display: block;
+ }
+ 
+ 
+ 
+ /* ----------------------- */
+ 

@@ -1,0 +1,13 @@
+@font-face {
+	font-family: GilroyR;
+	src: url(../assets/fonts/Gilroy-Regular.ttf);
+}
+@font-face {
+	font-family: GilroyB;
+	src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+
+:root{
+	--font-family-r: GilroyR, sans-serif;
+	--font-family-b: GilroyB, sans-serif;
+}
